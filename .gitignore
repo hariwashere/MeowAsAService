@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 **/.DS_Store
+
+.rspec
+/vendor/bundle
+rvmrc
