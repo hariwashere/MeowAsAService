@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # get 'meow/get'
+  get '/' => 'home#get'
   get 'meow/' => 'meow#get'
 
 
