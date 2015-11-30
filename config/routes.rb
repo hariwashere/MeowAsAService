@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   # get 'meow/get'
   get '/' => 'home#get'
   get 'meow/' => 'meow#get'
+  post 'meow/' => 'meow#post'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
